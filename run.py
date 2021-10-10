@@ -85,6 +85,8 @@ def calculate_surplus_data(sales_row):
 
     return surplus_data
 
+    def calculate_stock_data(data):
+
 
 def main():
     """
@@ -99,3 +101,5 @@ def main():
 
 print("Welcome to Love Sandwiches Data Automation")
 main()
+
+calculate_stock_data(sales_column)
